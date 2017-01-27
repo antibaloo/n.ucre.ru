@@ -65,7 +65,7 @@ h4, h5, h6 {
 }
 
 span.color {
-	color: #195cd8;
+	color: #ffff00;
 }
 
 body > section,
@@ -189,6 +189,11 @@ body > section,
 
 .carousel-caption {
   top: 30%;
+	bottom: auto
+}
+
+.carousel-caption {
+	background: rgba(110, 110, 110, 0.5)
 }
 
 .carousel-caption h2 {
@@ -256,14 +261,15 @@ top: -8px;
 }
 
 .carousel-indicators li {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 8px;
-  width: 8px;
+  border: 2px solid rgba(0, 0, 0, 1);
+  height: 15px;
+  width: 15px;
 }
 
 .carousel-indicators .active {
-  height: 8px;
-  width: 8px;
+  background-color: #000;
+	height: 15px;
+  width: 15px;
 }
 
 
