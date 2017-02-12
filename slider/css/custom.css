@@ -1,0 +1,7 @@
+div.container-fluid {
+  height: 95vh;
+}
+div.carousel, .carousel-inner, .active, .item{
+  height:100%;
+  background: #ccc;
+}
